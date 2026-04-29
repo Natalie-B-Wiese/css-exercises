@@ -54,6 +54,19 @@ li
   background-color: #C50208;
   grid-row: 2 / -2;
   grid-column-start: 1;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 50px;
+  
+}
+
+/* Center the text elements in the sidebar */
+.sidebar > *
+{
+  display: grid;
+  align-items: center;
 }
 
 .sidebar .photo {
